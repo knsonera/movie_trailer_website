@@ -13,6 +13,7 @@ This is a source code for Movie Trailer website.
 ### Preparing data
 
 To generate web page with movie trailers you will need to format data in a certain way.
+
 Main data structure is **Movie class**.
 
 **Parameters:**
