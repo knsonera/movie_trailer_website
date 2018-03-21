@@ -32,8 +32,18 @@ awesome_movie = Movie("Awesome Movie", "http://poster.url.com", "youtube-video.u
 To generate Movie Trailer website:
 - add all your movies to the list
 - call method open_movies_page(movie_list) from fresh_tomatoes.py
+**fresh_tomatoes.html** will be created.
 
 In **launcher.py** we call this method with our movie list from **entertainment_center.py**.
+
+## Try me!
+Follow the steps:
+```
+$ git clone https://github.com/knsonera/movie_trailer_website.git
+$ cd movie_trailer_website
+$ python launcher.py
+```
+Voila, Movie Trailer website is now available in **fresh_tomatoes.html** !
 
 ## Opening Movie Trailer website
 
