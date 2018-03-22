@@ -1,4 +1,4 @@
-# Movie class is the main data structure for Movie Trailer website.
+# Movie class provides the way to store movie related information.
 # To create an instance (a movie), call the class with three parameters:
 # - movie title
 # - poster image url
@@ -8,6 +8,9 @@
 
 
 class Movie:
+
+    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
+
     def __init__(self, title, poster_url, trailer_url):
         self.title = title
         self.poster_image_url = poster_url
